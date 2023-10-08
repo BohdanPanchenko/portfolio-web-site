@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-web-site/static/css/main.3bb7bbf9.css",
+    "main.css": "/portfolio-web-site/static/css/main.0049d3cc.css",
     "main.js": "/portfolio-web-site/static/js/main.f3facf55.js",
     "static/media/TeamViewer_Setup_x64.exe": "/portfolio-web-site/static/media/TeamViewer_Setup_x64.88c06500bddb979b16a6.exe",
     "static/media/main-image.png": "/portfolio-web-site/static/media/main-image.186008cce3dcebf0c90f.png",
     "static/media/monitor.png": "/portfolio-web-site/static/media/monitor.0b77761b816528329ce7.png",
     "static/media/logo-nix.svg": "/portfolio-web-site/static/media/logo-nix.ecda135099e09ed41614080d8f21892e.svg",
     "index.html": "/portfolio-web-site/index.html",
-    "main.3bb7bbf9.css.map": "/portfolio-web-site/static/css/main.3bb7bbf9.css.map",
+    "main.0049d3cc.css.map": "/portfolio-web-site/static/css/main.0049d3cc.css.map",
     "main.f3facf55.js.map": "/portfolio-web-site/static/js/main.f3facf55.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bb7bbf9.css",
+    "static/css/main.0049d3cc.css",
     "static/js/main.f3facf55.js"
   ]
 }
