@@ -1,0 +1,124 @@
+.about-me {
+  padding: 60px 0;
+  height: 100vh;
+  background-color: #fafafa;
+  background-image: url("../images/about-bg.jpg");
+}
+.about-me__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-me__content {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 25px;
+  flex-grow: 1;
+}
+.about-me__image img {
+  width: 400px;
+}
+.about-me__text {
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+}
+.about-me__top {
+  padding: 7px 12px;
+  display: flex;
+  column-gap: 7px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.about-me__top span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.about-me__top span:first-child {
+  background-color: rgb(237, 76, 92);
+}
+.about-me__top span:nth-child(2) {
+  background-color: rgb(253, 203, 88);
+}
+.about-me__top span:last-child {
+  background-color: rgb(120, 177, 89);
+}
+
+.about-me__title {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 100px;
+  flex-grow: 1;
+  position: relative;
+  z-index: 1;
+}
+.about-me__greetings {
+  padding: 25px 25px 0 25px;
+}
+.about-me__info {
+  padding: 25px;
+  line-height: 170%;
+  text-align: justify;
+}
+@media (max-width: 1023px) {
+  .about-me {
+    height: 100vh;
+  }
+  .about-me__container {
+    position: relative;
+    height: 100%;
+    justify-content: unset;
+  }
+  .about-me__title {
+    align-self: flex-end;
+    margin-right: 120px;
+  }
+  /* .about-me__title {
+    position: relative;
+  } */
+  .about-me__content {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .about-me__image {
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0.6;
+    height: 100%;
+    object-fit: cover;
+    /* opacity: 0.9; */
+  }
+  .about-me__image img {
+    width: 100%;
+  }
+  .about-me__text {
+    max-width: unset;
+    position: relative;
+    backdrop-filter: blur(5px);
+  }
+  .about-me__info {
+    font-weight: 600;
+    font-size: 22px;
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-me {
+    height: 100vh;
+  }
+  .about-me__image {
+    height: unset;
+  }
+}
