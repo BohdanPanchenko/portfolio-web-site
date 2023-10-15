@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-web-site/static/css/main.95811417.css",
-    "main.js": "/portfolio-web-site/static/js/main.aef99e3c.js",
+    "main.css": "/portfolio-web-site/static/css/main.4b9b0fe3.css",
+    "main.js": "/portfolio-web-site/static/js/main.154944ce.js",
+    "static/media/AdobeClean-Bold.woff2": "/portfolio-web-site/static/media/AdobeClean-Bold.b820a1018272ebe234cf.woff2",
     "static/media/main-image.png": "/portfolio-web-site/static/media/main-image.186008cce3dcebf0c90f.png",
     "static/media/15-puzzle.svg": "/portfolio-web-site/static/media/15-puzzle.f449aae558aa31b3581c.svg",
     "static/media/logo-nix.svg": "/portfolio-web-site/static/media/logo-nix.ecda135099e09ed41614080d8f21892e.svg",
     "index.html": "/portfolio-web-site/index.html",
-    "main.95811417.css.map": "/portfolio-web-site/static/css/main.95811417.css.map",
-    "main.aef99e3c.js.map": "/portfolio-web-site/static/js/main.aef99e3c.js.map"
+    "main.4b9b0fe3.css.map": "/portfolio-web-site/static/css/main.4b9b0fe3.css.map",
+    "main.154944ce.js.map": "/portfolio-web-site/static/js/main.154944ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.95811417.css",
-    "static/js/main.aef99e3c.js"
+    "static/css/main.4b9b0fe3.css",
+    "static/js/main.154944ce.js"
   ]
 }
